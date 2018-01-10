@@ -1,37 +1,68 @@
 global = {
   \key ees \major
+  \tempo 2 = 85
   \time 2/2
   \dynamicUp
 }
-sopranonotes = \relative c'' {
+
+sopranoNotes = \relative c'' {
   ees1
   d2 ees2
   c1
   d4 c4 d4 c4
   bes1
+  d2 ees2
+  c1
+  d4 c4 d4 c4
+  ees,2 g2
+  bes2 d2
+  d4 ees4 c4 bes4
+  bes1
 }
-sopranowords = \lyricmode {
+sopranoWords = \lyricmode {
   whoa
   o o
   o
   for the lon -- gest
   time
+  whoa o
+  o
+  for the lon -- gest
+  if you said good
+  bye to me to --
+  night
 }
-altonotes = \relative c'' {
+
+altoNotes = \relative c'' {
   g1
   f2 g2
   aes1
   f1
   g1
+  f2 g2
+  aes1
+  f1
+  ees2 d2
+  c2 bes2
+  aes1
+  bes1
 }
-altowords = \lyricmode {
+altoWords = \lyricmode {
   whoa
   o o
   o
   o
   time
+  whoa o
+  o
+  o
+  ooh ooh
+  ooh ooh
+  ooh
+  ooh
 }
-tenornotes = {
+
+tenorNotes = {
   \clef "G_8"
   \relative c' {
     ees1
@@ -43,7 +74,7 @@ tenornotes = {
         \voiceOne
         bes1
       }
-      \new Voice {
+      \new Voice = "tenorflourish" {
         \voiceTwo
         \override Stem.direction = #UP
         \relative c'' {
@@ -52,31 +83,59 @@ tenornotes = {
       }
     >>
     \oneVoice
+    d2 ees2
+    c1
+    d4 c4 d4 c4
+    ees,2 g2
+    bes2 d2
+    d4 ees4 c4 bes4
+    bes1
   }
 }
-tenorwords = \lyricmode {
+tenorWords = \lyricmode {
   whoa
   o o
   o
   for the lon -- gest
   time
+  whoa o
+  o
+  for the lon -- gest
+  if you said good
+  bye to me to --
+  night
 }
-baritonenotes = {
+
+baritoneNotes = \relative c' {
   \clef bass
   bes1
   f2 g2
-  aes4 aes,8 aes,8 c4 ees4
+  aes4 aes,8 aes8 c4 ees4
   f1
   bes1
+  f2 g2
+  aes4 aes,8 aes8 c4 ees4
+  f1
+  ees2 g2
+  bes2 d2
+  d4 ees4 c4 bes4
+  bes1
 }
-baritonewords = \lyricmode {
+baritoneWords = \lyricmode {
   whoa
   o o
   o for the lon -- gest
   o
   time
+  whoa o
+  o for the lon -- gest
+  o
+  if you said good
+  bye to me to --
+  night
 }
-bassnotes = {
+
+bassNotes = {
   \clef bass
   \relative c {
     ees1
@@ -84,14 +143,28 @@ bassnotes = {
     aes1
     bes1
     ees1
+    bes2 g2
+    aes1
+    bes1
+    ees2 d2
+    c2 bes2
+    aes1
+    ees'1
   }
 }
-basswords = \lyricmode {
+bassWords = \lyricmode {
   whoa
   o o
   o
   o
   time
+  whoa o
+  o
+  o
+  ooh ooh
+  ooh ooh
+  ooh
+  ooh
 }
 
 \score {
@@ -99,37 +172,37 @@ basswords = \lyricmode {
     \new Staff <<
       \new Voice = "soprano" <<
         \global
-        \sopranonotes
+        \sopranoNotes
       >>
-      \lyricsto "soprano" \new Lyrics \sopranowords
+      \lyricsto "soprano" \new Lyrics \sopranoWords
     >>
     \new Staff <<
       \new Voice = "alto" <<
         \global
-        \altonotes
+        \altoNotes
       >>
-      \lyricsto "alto" \new Lyrics \altowords
+      \lyricsto "alto" \new Lyrics \altoWords
     >>
     \new Staff <<
       \new Voice = "tenor" <<
         \global
-        \tenornotes
+        \tenorNotes
       >>
-      \lyricsto "tenor" \new Lyrics \tenorwords
+      \lyricsto "tenor" \new Lyrics \tenorWords
     >>
     \new Staff <<
       \new Voice = "baritone" <<
         \global
-        \baritonenotes
+        \baritoneNotes
       >>
-      \lyricsto "baritone" \new Lyrics \baritonewords
+      \lyricsto "baritone" \new Lyrics \baritoneWords
     >>
     \new Staff <<
       \new Voice = "bass" <<
         \global
-        \bassnotes
+        \bassNotes
       >>
-      \lyricsto "bass" \new Lyrics \basswords
+      \lyricsto "bass" \new Lyrics \bassWords
     >>
   >>
 }
