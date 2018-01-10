@@ -38,8 +38,8 @@ altoWordsChorus = \lyricmode {
   time
   whoa --
 }
-altoWords = \lyricmode {
-  \altoWordsChorus
+
+altoWordsLyrics = \lyricmode {
   ooh --
   ooh --
   ah --
@@ -50,9 +50,19 @@ altoWords = \lyricmode {
   ah --
   ah
 }
+altoWords = \lyricmode {
+  \altoWordsChorus
+  \altoWordsLyrics
+  \altoWordsLyrics
+  \altoWordsChorus
+  \altoWordsLyrics
+}
 
 % export
 altoNotes = \relative c'' {
+  \altoChorus
+  \altoVerse
+  \altoVerse
   \altoChorus
   \altoVerse
 }

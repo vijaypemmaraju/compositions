@@ -1,4 +1,4 @@
-sopranoChorus = {
+sopranoChorus = \relative c'' {
   ees1(
   d2 ees2
   c1)
@@ -10,7 +10,7 @@ sopranoChorus = {
   d4 c4 d4 c4
 }
 
-sopranoVerse = {
+sopranoVerse = \relative c'' {
   ees,2 g2
   bes2 d2
   d4 ees4 c4 bes4
@@ -41,6 +41,8 @@ sopranoWordsChorus = \lyricmode {
 }
 sopranoWords = \lyricmode {
   \sopranoWordsChorus
+
+  % verse 1
   if you
   said good
   bye to me to --
@@ -54,10 +56,43 @@ sopranoWords = \lyricmode {
   ah --
   lon -- gest
   time
+
+  % verse 2
+  once I thought my
+  in -- no -- cence was
+  gone
+  Now I
+  know that
+  ha -- ppi -- ness goes
+  on ah --
+  ah ah --
+  ah ah --
+  ah --
+  lon -- gest
+  time
+  \sopranoWordsChorus
+
+  % verse 3
+  I'm that voice you're
+  hea -- ring in the
+  hall
+  and the
+  grea -- test
+  mi -- ra -- cle of
+  all ah --
+  ah ah --
+  ah ah --
+  ah --
+  lon -- gest
+  time
+
 }
 
 % export
-sopranoNotes = \relative c'' {
+sopranoNotes = {
+  \sopranoChorus
+  \sopranoVerse
+  \sopranoVerse
   \sopranoChorus
   \sopranoVerse
 }

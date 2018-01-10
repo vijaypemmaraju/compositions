@@ -1,4 +1,4 @@
-bassChorus = {
+bassChorus = \relative c {
   ees1(
   bes2 g2
   aes1)
@@ -10,7 +10,7 @@ bassChorus = {
   bes1
 }
 
-bassVerse = {
+bassVerse = \relative c {
   ees2( d2
   c2 bes2
   aes1
@@ -39,8 +39,7 @@ bassWordsChorus = \lyricmode {
   for
 }
 
-bassWords = \lyricmode {
-  \bassWordsChorus
+bassWordsVerse = \lyricmode {
   ooh --
   ooh --
   ah --
@@ -49,11 +48,20 @@ bassWords = \lyricmode {
   time
 }
 
+bassWords = \lyricmode {
+  \bassWordsChorus
+  \bassWordsVerse
+  \bassWordsVerse
+  \bassWordsChorus
+  \bassWordsVerse
+}
+
 % export
 bassNotes = {
   \clef bass
-  \relative c {
-    \bassChorus
-    \bassVerse
-  }
+  \bassChorus
+  \bassVerse
+  \bassVerse
+  \bassChorus
+  \bassVerse
 }
