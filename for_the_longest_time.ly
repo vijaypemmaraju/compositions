@@ -21,7 +21,15 @@ sopranoNotes = \relative c'' {
   ees,2 g2
   bes2 d2
   d4 ees4 c4 bes4
-  bes1
+  bes2 bes4( aes4
+  g1)
+  g2 g4( c4
+  bes1)
+  bes2. bes4(
+  aes2.) g4(
+  f1)
+  bes2. g4
+  g1
 }
 sopranoWords = \lyricmode {
   whoa
@@ -30,9 +38,20 @@ sopranoWords = \lyricmode {
   time
   whoa --
   for the lon -- gest
-  if you said good
+  if you
+  said good
   bye to me to --
   night
+  there would
+  still be
+  mu -- sic left to
+  write ah --
+  ah ah --
+  ah ah --
+  ah --
+  lon -- gest
+  time
+
 }
 
 altoNotes = \relative c'' {
@@ -101,7 +120,15 @@ tenorNotes = {
     g1
     bes,2 d2
     d4 ees4 c4 bes4
-    bes1
+    bes2 r2
+    r4 g4 b4 d4
+    f2 ees2
+    r4 bes4 d4 f4
+    aes4 g4 ees4 des4
+    r4 aes4 c4 ees4
+    g4 aes4 f4 ees4
+    f2. ees4
+    ees1
   }
 }
 tenorWords = \lyricmode {
@@ -118,6 +145,13 @@ tenorWords = \lyricmode {
   still be
   mu -- sic left to
   write
+  but what could
+  I do?
+  I'm so in -- spi -- red by you
+  that ha -- sn't
+  ha -- ppened for the
+  lon -- gest
+  time
 }
 
 baritoneNotes = \relative c' {
@@ -137,6 +171,14 @@ baritoneNotes = \relative c' {
   ees,2 g2
   bes2 d2
   d4 ees4 c4 bes4
+  bes2 d4( c4
+  b1)
+  c2 c4( ees4
+  d1)
+  ees2 c4( bes4
+  aes2.) g4
+  f1
+  bes2. bes4
   bes1
 }
 baritoneWords = \lyricmode {
@@ -145,8 +187,8 @@ baritoneWords = \lyricmode {
   for the lon -- gest
   o
   time
-  whoa o
-  o for the lon -- gest
+  whoa --
+  for the lon -- gest
   o
   if you
   said good
@@ -155,7 +197,13 @@ baritoneWords = \lyricmode {
   there would
   still be
   mu -- sic left to
-  write
+  write ah --
+  ah ah --
+  ah ah --
+  ah --
+  ah --
+  lon -- gest
+  time
 }
 
 bassNotes = {
