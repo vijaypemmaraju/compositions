@@ -10,7 +10,13 @@ sopranonotes = \relative c'' {
   d4 c4 d4 c4
   bes1
 }
-sopranowords = \lyricmode { whoa o o o for the lon -- gest time }
+sopranowords = \lyricmode {
+  whoa
+  o o
+  o
+  for the lon -- gest
+  time
+}
 altonotes = \relative c'' {
   g1
   f2 g2
@@ -18,7 +24,13 @@ altonotes = \relative c'' {
   f1
   g1
 }
-altowords = \lyricmode { whoa o o o o time }
+altowords = \lyricmode {
+  whoa
+  o o
+  o
+  o
+  time
+}
 tenornotes = {
   \clef "G_8"
   \relative c' {
@@ -42,7 +54,13 @@ tenornotes = {
     \oneVoice
   }
 }
-tenorwords = \lyricmode { whoa o o o for the lon -- gest time }
+tenorwords = \lyricmode {
+  whoa
+  o o
+  o
+  for the lon -- gest
+  time
+}
 baritonenotes = {
   \clef bass
   bes1
@@ -51,7 +69,13 @@ baritonenotes = {
   f1
   bes1
 }
-baritonewords = \lyricmode { whoa o o o for the lon -- gest o time }
+baritonewords = \lyricmode {
+  whoa
+  o o
+  o for the lon -- gest
+  o
+  time
+}
 bassnotes = {
   \clef bass
   \relative c {
@@ -62,7 +86,13 @@ bassnotes = {
     ees1
   }
 }
-basswords = \lyricmode { whoa o o o o time }
+basswords = \lyricmode {
+  whoa
+  o o
+  o
+  o
+  time
+}
 
 \score {
   \new ChoirStaff <<
