@@ -1,10 +1,10 @@
 \version "2.18.2"
 
-\include "./parts/soprano.ly"
-\include "./parts/alto.ly"
-\include "./parts/tenor.ly"
-\include "./parts/baritone.ly"
-\include "./parts/bass.ly"
+\include "for_the_longest_time/parts/soprano.ly"
+\include "for_the_longest_time/parts/alto.ly"
+\include "for_the_longest_time/parts/tenor.ly"
+\include "for_the_longest_time/parts/baritone.ly"
+\include "for_the_longest_time/parts/bass.ly"
 
 global = {
   \key ees \major
