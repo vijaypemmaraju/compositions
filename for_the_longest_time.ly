@@ -4,7 +4,6 @@ global = {
   \dynamicUp
 }
 sopranonotes = \relative c'' {
-  % c2 \p \< d c d \f
   ees1
   d2 ees2
   c1
@@ -27,7 +26,20 @@ tenornotes = {
     d2 ees2
     c1
     d4 c4 d4 c4
-    bes1
+    <<
+      {
+        \voiceOne
+        bes1
+      }
+      \new Voice {
+        \voiceTwo
+        \override Stem.direction = #UP
+        \relative c'' {
+          c8 bes8 g8 bes4. c4
+        }
+      }
+    >>
+    \oneVoice
   }
 }
 tenorwords = \lyricmode { whoa o o o for the lon -- gest time }
@@ -42,11 +54,13 @@ baritonenotes = {
 baritonewords = \lyricmode { whoa o o o for the lon -- gest o time }
 bassnotes = {
   \clef bass
-  ees1
-  bes2 g2
-  aes1
-  bes1
-  ees1
+  \relative c {
+    ees1
+    bes2 g2
+    aes1
+    bes1
+    ees1
+  }
 }
 basswords = \lyricmode { whoa o o o o time }
 
