@@ -1,4 +1,4 @@
-altoNotes = \relative c'' {
+altoChorus = {
   g1(
   f2 g2
   aes1)
@@ -8,7 +8,9 @@ altoNotes = \relative c'' {
   f2( g2
   aes1)
   f1
+}
 
+altoVerse = {
   ees2( d2
   c2 bes2
   aes1
@@ -29,11 +31,15 @@ altoNotes = \relative c'' {
   d2.( ees4
   ees1)
 }
-altoWords = \lyricmode {
+
+altoWordsChorus = \lyricmode {
   whoa --
   for
   time
   whoa --
+}
+altoWords = \lyricmode {
+  \altoWordsChorus
   ooh --
   ooh --
   ah --
@@ -43,4 +49,10 @@ altoWords = \lyricmode {
   ah
   ah --
   ah
+}
+
+% export
+altoNotes = \relative c'' {
+  \altoChorus
+  \altoVerse
 }

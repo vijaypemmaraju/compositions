@@ -1,4 +1,4 @@
-sopranoNotes = \relative c'' {
+sopranoChorus = {
   ees1(
   d2 ees2
   c1)
@@ -8,8 +8,10 @@ sopranoNotes = \relative c'' {
   d2( ees2
   c1)
   d4 c4 d4 c4
+}
 
-  ees,2 g2 % verse
+sopranoVerse = {
+  ees,2 g2
   bes2 d2
   d4 ees4 c4 bes4
   bes1
@@ -29,12 +31,16 @@ sopranoNotes = \relative c'' {
   bes2. g4
   g1
 }
-sopranoWords = \lyricmode {
+
+sopranoWordsChorus = \lyricmode {
   whoa --
   for the lon -- gest
   time
   whoa --
   for the lon -- gest
+}
+sopranoWords = \lyricmode {
+  \sopranoWordsChorus
   if you
   said good
   bye to me to --
@@ -48,4 +54,10 @@ sopranoWords = \lyricmode {
   ah --
   lon -- gest
   time
+}
+
+% export
+sopranoNotes = \relative c'' {
+  \sopranoChorus
+  \sopranoVerse
 }

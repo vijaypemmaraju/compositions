@@ -1,5 +1,4 @@
-baritoneNotes = \relative c' {
-  \clef bass
+baritoneChorus = {
   bes1(
   f2 g2
   aes4) aes,8 aes8 c4 ees4
@@ -9,7 +8,8 @@ baritoneNotes = \relative c' {
   f2( g2
   aes4) aes,8 aes8 c4 ees4
   f1
-
+}
+baritoneVerse = {
   ees2 g2
   bes2 d2
   d4 ees4 c4 bes4
@@ -30,7 +30,8 @@ baritoneNotes = \relative c' {
   bes2. bes4
   bes1
 }
-baritoneWords = \lyricmode {
+
+baritoneWordsChorus = \lyricmode {
   whoa --
   for the lon -- gest
   oh
@@ -38,6 +39,10 @@ baritoneWords = \lyricmode {
   whoa --
   for the lon -- gest
   oh
+}
+
+baritoneWords = \lyricmode {
+  \baritoneWordsChorus
   if you
   said good
   bye to me to --
@@ -51,4 +56,11 @@ baritoneWords = \lyricmode {
   ah --
   lon -- gest
   time
+}
+
+% export
+baritoneNotes = \relative c' {
+  \clef bass
+  \baritoneChorus
+  \baritoneVerse
 }
