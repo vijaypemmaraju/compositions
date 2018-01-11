@@ -10,6 +10,8 @@
 \header{
   title = "For the Longest Time"
   subtitle = "Billy Joel, arr. Vijay Pemmaraju"
+  % Do not display the default LilyPond footer for this book
+  tagline = ##f
 }
 
 global = {
