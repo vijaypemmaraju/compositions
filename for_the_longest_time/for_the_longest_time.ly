@@ -8,7 +8,7 @@
 \include "for_the_longest_time/parts/vp.ly"
 
 
-\header{
+\header {
   title = "For the Longest Time"
   subtitle = "Billy Joel, arr. Vijay Pemmaraju"
   % Do not display the default LilyPond footer for this book
