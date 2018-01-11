@@ -6,6 +6,12 @@
 \include "for_the_longest_time/parts/baritone.ly"
 \include "for_the_longest_time/parts/bass.ly"
 
+
+\header{
+  title = "For the Longest Time"
+  subtitle = "Billy Joel, arr. Vijay Pemmaraju"
+}
+
 global = {
   \key ees \major
   \tempo 2 = 85

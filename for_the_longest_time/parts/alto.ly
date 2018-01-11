@@ -28,8 +28,36 @@ altoVerse = {
 
   c,2.( bes4
   aes1)
-  d2.( ees4
-  ees1)
+  d2. ees4
+  ees1
+}
+
+altoVerseThree = {
+  ees2( d2
+  c2 bes2
+  aes1
+  bes1)
+
+  ees2( d2
+  c2 <bes g'>2
+  <a f'>1
+  d2) d4( c4
+
+  b1)
+  c1
+  d1
+  g1
+
+  c,2.( bes4
+  aes1)
+  d2. ees4
+  d2. ees4
+  d2. ees4
+  d2. ees4
+  d2 d2
+  d2 d2
+  d4 d4 d4 d4
+  d8 d8 d8 d8 d8 d8 d8 d8
 }
 
 altoWordsChorus = \lyricmode {
@@ -48,7 +76,14 @@ altoWordsLyrics = \lyricmode {
   ah
   ah
   ah --
-  ah
+  lon -- gest
+  lon -- gest
+  lon -- gest
+  lon -- gest
+  lon lon
+  lon lon
+  lon lon lon lon
+  lon lon lon lon lon lon lon lon
 }
 altoWords = \lyricmode {
   \altoWordsChorus
@@ -64,5 +99,5 @@ altoNotes = \relative c'' {
   \altoVerse
   \altoVerse
   \altoChorus
-  \altoVerse
+  \altoVerseThree
 }

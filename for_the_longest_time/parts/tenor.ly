@@ -66,6 +66,34 @@ tenorVerseTwo = \relative c' {
   ees1
 }
 
+tenorVerseThree = \relative c' {
+  ees,2 g2
+  bes2 d2
+  d4 ees4 c4 bes4
+  r4 bes4 bes'4 g8 f8
+
+  g1
+  bes,2 d2
+  d4 ees4 c4 bes4
+  bes2 r2
+
+  r4 g4 b4 d4
+  f2 ees2
+  r4 bes4 d4 f4
+  aes4 g4 ees4 des4
+
+  r4 aes4 c4 ees4
+  g4 aes4 f4 ees4
+  f2. ees4
+  f2. ees4
+  f2. ees4
+  f2. ees4
+  f2 f2
+  f2 f2
+  f4 f4 f4 f4
+  f8 f8 f8 f8 f8 f8 f8 f8
+}
+
 tenorWordsChorus = \lyricmode {
   whoa --
   for the lon -- gest
@@ -123,7 +151,13 @@ tenorWords = \lyricmode {
   that ha -- sn't
   ha -- ppened for the
   lon -- gest
-  time
+  lon -- gest
+  lon -- gest
+  lon -- gest
+  lon lon
+  lon lon
+  lon lon lon lon
+  lon lon lon lon lon lon lon lon
 
 }
 
@@ -134,5 +168,5 @@ tenorNotes = {
   \tenorVerseOne
   \tenorVerseTwo
   \tenorChorus
-  \tenorVerseOne
+  \tenorVerseThree
 }
