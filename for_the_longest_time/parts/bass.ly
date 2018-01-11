@@ -56,6 +56,18 @@ bassVerseThree = \relative c {
   bes2 bes2
   bes4 bes4 bes4 bes4
   bes8 bes8 bes8 bes8 bes8 bes8 bes8 bes8
+  r1
+}
+
+bassBridgeIntro = \relative c, {
+  ees2 r2
+  r8 ees8 r8 ees8 r2
+  ees2 r2
+  r8 ees8 r8 ees8 r2
+  ees2 r2
+  r8 ees8 r8 ees8 r2
+  ees2 r2
+  r8 ees8 r8 ees8 r2
 }
 
 bassWordsChorus = \lyricmode {
@@ -106,4 +118,5 @@ bassNotes = {
   \bassVerse
   \bassChorus
   \bassVerseThree
+  \bassBridgeIntro
 }

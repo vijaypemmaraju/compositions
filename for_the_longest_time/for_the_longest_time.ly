@@ -5,6 +5,7 @@
 \include "for_the_longest_time/parts/tenor.ly"
 \include "for_the_longest_time/parts/baritone.ly"
 \include "for_the_longest_time/parts/bass.ly"
+\include "for_the_longest_time/parts/vp.ly"
 
 
 \header{
@@ -57,6 +58,10 @@ global = {
         \bassNotes
       >>
       \lyricsto "bass" \new Lyrics \bassWords
+    >>
+    \new DrumStaff <<
+      \global
+      \vpNotes
     >>
   >>
   \layout { }

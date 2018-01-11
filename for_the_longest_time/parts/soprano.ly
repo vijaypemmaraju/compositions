@@ -58,6 +58,18 @@ sopranoVerseThree = \relative c'' {
   bes2 bes2
   bes4 bes4 bes4 bes4
   bes8 bes8 bes8 bes8 bes8 bes8 bes8 bes8
+  r1
+}
+
+sopranoBridgeIntro = \relative c'' {
+  r2 ees8 ees8 ees16 ees16 g8
+  r2 d16 ees16 d8 ees,8 f8
+  r1
+  r2 bes16 c16 bes8 ees,8 f8
+  r2 ees'8 ees8 ees16 ees16 g8
+  r2 d16 ees16 d8 ees,8 f8
+  r1
+  r2 bes16 c16 bes8 ees,8 f8
 }
 
 sopranoWordsChorus = \lyricmode {
@@ -129,4 +141,5 @@ sopranoNotes = {
   \sopranoVerse
   \sopranoChorus
   \sopranoVerseThree
+  \sopranoBridgeIntro
 }
