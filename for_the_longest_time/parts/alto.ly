@@ -85,7 +85,7 @@ altoBridge = {
 
   f2 c8 c8 c8 c8
   r4 c4 r8 a4 f8
-  \tuplet 3/4 { f' f f r f f r f f } f8 f8 f8 f8
+  \tuplet 3/4 { f' f f r f f } f1
 }
 
 altoWordsChorus = \lyricmode {
@@ -93,13 +93,13 @@ altoWordsChorus = \lyricmode {
   for
   time
   whoa --
+  for
 }
 
-altoWordsLyrics = \lyricmode {
+altoWordsVerse = \lyricmode {
   ooh --
   ooh --
   ah --
-  ah
   ah
   ah
   ah
@@ -108,7 +108,7 @@ altoWordsLyrics = \lyricmode {
   time
 }
 
-altoWordsLyricsThree = \lyricmode {
+altoWordsVerseThree = \lyricmode {
   ooh --
   ooh --
   ah --
@@ -125,12 +125,48 @@ altoWordsLyricsThree = \lyricmode {
   lon lon lon lon
   lon lon lon lon lon lon lon lon
 }
+
+altoWordsBridge = \lyricmode {
+  ba mwa mwa mwa mwa
+  doo ba da
+  mwa mwa mwa mwa mwa
+  mwa mwa mwa mwa mwa mwa
+
+  ba mwa mwa mwa mwa
+  doo ba da
+  mwa mwa mwa mwa mwa
+  mwa mwa mwa mwa mwa mwa
+
+  ba mwa mwa mwa mwa
+  doo ba da
+  mwa mwa mwa mwa mwa
+  mwa mwa mwa mwa mwa mwa
+
+  ba mwa mwa mwa mwa
+  doo ba da
+  mwa mwa mwa mwa mwa
+  mwa mwa mwa mwa mwa mwa
+
+
+  ba mwa mwa mwa mwa
+  doo ba da
+  mwa mwa mwa mwa mwa
+  mwa mwa mwa mwa mwa mwa
+
+  ba mwa mwa mwa mwa
+  doo ba da
+  mwa mwa mwa mwa mwa
+  oh
+}
+
 altoWords = \lyricmode {
   \altoWordsChorus
-  \altoWordsLyrics
-  \altoWordsLyrics
+  \altoWordsVerse
+  \altoWordsVerse
   \altoWordsChorus
-  \altoWordsLyricsThree
+  \altoWordsVerseThree
+  \altoWordsBridge
+  \altoWordsVerse
 }
 
 % export
@@ -142,4 +178,5 @@ altoNotes = \relative c'' {
   \altoVerseThree
   \altoBridgeIntro
   \altoBridge
+  \altoVerse
 }

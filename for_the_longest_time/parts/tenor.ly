@@ -114,15 +114,15 @@ tenorBridge = \relative c' {
   d2 d2
   d2 c4 bes4
   c2. ees,4
-  c'2 c4 bes4
+  d'2 c4 bes4
   c2. ees,4
   c'2 bes4 a4
   g1
   d'2 d2 d2 d2
   d2 c4 bes4
   c2. ees,4
-  c'2 c4 bes4
-  c2. ees,4
+  d'2 c4 bes4
+  c2. ees,8 ees8
   c'2 bes4 aes4
   g2 f2
 }
@@ -192,6 +192,36 @@ tenorWords = \lyricmode {
   lon lon lon lon
   lon lon lon lon lon lon lon lon
 
+  be doo be doo doo be
+  doo be doo be doo doo be
+
+  be doo be doo doo be
+  doo be doo be doo doo be
+
+  be doo be doo doo be
+  doo be doo be doo doo be
+
+  be doo be doo doo be
+  doo be doo be doo doo be
+
+  May -- be this won't last ve -- ry long
+  But you feel so right
+  And I could be wrong
+  May -- be I've been ho -- ping too hard
+  But I've gone this far
+  And it's more than I hoped for
+
+  Who knows how much fur -- ther we'll go
+  ooh ooh o -- oh
+  ooh
+  I'll be so -- rry when you're gone
+  I'll take my chan -- ces
+  I for -- got how nice ro -- mance is
+  I ha -- ven't
+  been there for the
+  lon -- gest
+  time
+
 }
 
 % export
@@ -204,4 +234,5 @@ tenorNotes = {
   \tenorVerseThree
   \tenorBridgeIntro
   \tenorBridge
+  \tenorVerseTwo
 }

@@ -152,6 +152,45 @@ sopranoWords = \lyricmode {
   lon lon lon lon
   lon lon lon lon lon lon lon lon
 
+  % bridge
+  bpr bpr bpr ka bpr
+  bpr - - - -
+  %
+  bpr - - - -
+
+  bpr bpr bpr ka bpr
+  bpr - - - -
+  %
+  bpr - - - -
+
+  bpr bpr bpr ka bpr
+  bpr - - - -
+  %
+  bpr - - - -
+
+  bpr bpr bpr ka bpr
+  bpr - - - -
+  %
+  bpr - - - -
+
+  bpr bpr bpr ka bpr
+  bpr - - - -
+  %
+  bpr - - - -
+
+  bpr bpr bpr ka bpr
+  bpr - - - -
+  %
+
+  Who knows how much fur -- ther we'll go on
+  May -- be I'll be so -- rry when you're gone
+  ah --
+  ah ah --
+  ah ah --
+  ah --
+  lon -- gest
+  time
+
 }
 
 % export
@@ -163,4 +202,5 @@ sopranoNotes = {
   \sopranoVerseThree
   \sopranoBridgeIntro
   \sopranoBridge
+  \sopranoVerse
 }

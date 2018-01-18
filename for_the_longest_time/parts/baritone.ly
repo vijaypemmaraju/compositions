@@ -85,7 +85,7 @@ baritoneBridge = \relative c {
 
   c2 f8 f8 f8 f8
   r4 f4 r8 f4 c8
-  \tuplet 3/4 { f f f r f f r f f } f8 f8 f8 f8
+  \tuplet 3/4 { f f f r f f } f1
 }
 
 
@@ -151,6 +151,47 @@ baritoneWords = \lyricmode {
   lon lon
   lon lon lon lon
   lon lon lon lon lon lon lon lon
+
+  % bridge
+  ba mwa mwa mwa mwa
+  doo ba da
+  mwa mwa mwa mwa mwa
+  mwa mwa mwa mwa mwa mwa
+
+  ba mwa mwa mwa mwa
+  doo ba da
+  mwa mwa mwa mwa mwa
+  mwa mwa mwa mwa mwa mwa
+
+  ba mwa mwa mwa mwa
+  doo ba da
+  mwa mwa mwa mwa mwa
+  mwa mwa mwa mwa mwa mwa
+
+  ba mwa mwa mwa mwa
+  doo ba da
+  mwa mwa mwa mwa mwa
+  mwa mwa mwa mwa mwa mwa
+
+
+  ba mwa mwa mwa mwa
+  doo ba da
+  mwa mwa mwa mwa mwa
+  mwa mwa mwa mwa mwa mwa
+
+  ba mwa mwa mwa mwa
+  doo ba da
+  mwa mwa mwa mwa mwa
+  oh
+
+  Who knows how much fur -- ther we'll go on
+  May -- be I'll be so -- rry when you're gone
+  ah --
+  ah ah --
+  ah ah --
+  ah --
+  lon -- gest
+  time
 }
 
 % export
@@ -163,4 +204,5 @@ baritoneNotes = {
   \baritoneVerseThree
   \baritoneBridgeIntro
   \baritoneBridge
+  \baritoneVerse
 }

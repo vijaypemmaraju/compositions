@@ -87,7 +87,7 @@ bassBridge = \relative c, {
   f,2 r2
   r8 f8 r8 f8 r2
   bes2 r2
-  r1
+  bes1
 }
 
 bassWordsChorus = \lyricmode {
@@ -122,12 +122,31 @@ bassWordsVerseThree = \lyricmode {
   lon lon lon lon lon lon lon lon
 }
 
+bassWordsBridge = \lyricmode {
+  ba mwa mwa
+  ba mwa mwa
+  ba mwa mwa
+  ba mwa mwa
+
+  ba mwa mwa
+  ba mwa mwa
+  ba mwa mwa
+  ba mwa mwa
+  ba mwa mwa
+  ba mwa mwa
+  ba mwa mwa
+  ba
+  oh
+}
+
 bassWords = \lyricmode {
   \bassWordsChorus
   \bassWordsVerse
   \bassWordsVerse
   \bassWordsChorus
   \bassWordsVerseThree
+  \bassWordsBridge
+  \bassWordsVerse
 }
 
 % export
@@ -140,4 +159,5 @@ bassNotes = {
   \bassVerseThree
   \bassBridgeIntro
   \bassBridge
+  \bassVerse
 }
