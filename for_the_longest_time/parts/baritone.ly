@@ -66,7 +66,26 @@ baritoneBridgeIntro = \relative c {
   \tuplet 3/4 { ees ees ees r ees ees r ees ees } ees8 ees8 ees8 ees8
   bes'2 ees,8 ees8 ees8 ees8
   r4 bes'4 r8 ees,4 bes8
+
   \tuplet 3/4 { ees ees ees r ees ees r ees ees } ees8 ees8 ees8 ees8
+}
+
+baritoneBridge = \relative c {
+  bes'2 f8 f8 f8 f8
+  r4 f4 r8 bes4 f8
+  \tuplet 3/4 { ees' ees ees r ees ees r ees ees } ees8 ees8 ees8 ees8
+
+  d2 a8 a8 a8 a8
+  r4 a4 r8 ges4 ees8
+  \tuplet 3/4 { ees' ees ees r ees ees r ees ees } ees8 ees8 ees8 ees8
+
+  bes2 f8 f8 f8 f8
+  r4 f4 r8 bes4 f8
+  \tuplet 3/4 { ees ees ees r ees ees r ees ees } ees8 ees8 ees8 ees8
+
+  c2 f8 f8 f8 f8
+  r4 f4 r8 f4 c8
+  \tuplet 3/4 { f f f r f f r f f } f8 f8 f8 f8
 }
 
 
@@ -143,4 +162,5 @@ baritoneNotes = {
   \baritoneChorus
   \baritoneVerseThree
   \baritoneBridgeIntro
+  \baritoneBridge
 }
