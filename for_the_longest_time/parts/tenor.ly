@@ -98,12 +98,33 @@ tenorVerseThree = \relative c' {
 tenorBridgeIntro = \relative c' {
   r8 ees8 bes8 f'8 g8 r8 bes,8 d8
   ees8 ees8 bes8 f'8 g8 r8 bes,8 es8
-  ees,1
-  ees1
-  r8 ees'8 bes8 f'8 g8 r8 bes,8 d8
+
+  r8 ees8 bes8 f'8 g8 r8 bes,8 d8
   ees8 ees8 bes8 f'8 g8 r8 bes,8 es8
-  ees,1
-  ees1
+
+  r8 ees8 bes8 f'8 g8 r8 bes,8 d8
+  ees8 ees8 bes8 f'8 g8 r8 bes,8 es8
+
+  r8 ees8 bes8 f'8 g8 r8 bes,8 d8
+  ees8 ees8 bes8 f'8 g8 r8 bes,8 es8
+}
+
+tenorBridge = \relative c' {
+  d2 d2
+  d2 d2
+  d2 c4 bes4
+  c2. ees,4
+  c'2 c4 bes4
+  c2. ees,4
+  c'2 bes4 a4
+  g1
+  d'2 d2 d2 d2
+  d2 c4 bes4
+  c2. ees,4
+  c'2 c4 bes4
+  c2. ees,4
+  c'2 bes4 aes4
+  g2 f2
 }
 
 tenorWordsChorus = \lyricmode {
@@ -182,4 +203,5 @@ tenorNotes = {
   \tenorChorus
   \tenorVerseThree
   \tenorBridgeIntro
+  \tenorBridge
 }

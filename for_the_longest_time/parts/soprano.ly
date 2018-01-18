@@ -72,6 +72,26 @@ sopranoBridgeIntro = \relative c'' {
   r2 bes16 c16 bes8 ees,8 f8
 }
 
+sopranoBridge = \relative c'' {
+  r2 d8 d8 d16 d16 f8
+  r2 d16 ees16 d8 ees,8 f8
+  r1
+  r2 bes16 c16 bes8 ees,8 f8
+  r2 d'8 d8 d16 d16 fis8
+  r2 d16 ees16 d8 ees,8 f8
+  r1
+  r2 bes16 c16 bes8 ees,8 f8
+
+  r2 d'8 d8 d16 d16 f8
+  r2 d16 ees16 d8 ees,8 f8
+  r1
+  r2 bes16 c16 bes8 ees,8 f8
+  r2 c'8 c8 c16 c16 f8
+  r2 c16 f16 c8 f,8 g8
+  r1
+  r1
+}
+
 sopranoWordsChorus = \lyricmode {
   whoa --
   for the lon -- gest
@@ -142,4 +162,5 @@ sopranoNotes = {
   \sopranoChorus
   \sopranoVerseThree
   \sopranoBridgeIntro
+  \sopranoBridge
 }

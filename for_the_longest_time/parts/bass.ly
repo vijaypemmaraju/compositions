@@ -70,6 +70,26 @@ bassBridgeIntro = \relative c, {
   r8 ees8 r8 ees8 r2
 }
 
+bassBridge = \relative c, {
+  bes'2 r2
+  r8 bes8 r8 bes8 r2
+  c2 r2
+  r8 c8 r8 c8 r2
+  d2 r2
+  r8 d8 r8 d8 r2
+  ees2 r2
+  r8 ees8 r8 ees8 r2
+
+  bes2 r2
+  r8 bes8 r8 bes8 r2
+  c2 r2
+  r8 c8 r8 c8 r2
+  f,2 r2
+  r8 f8 r8 f8 r2
+  bes2 r2
+  r1
+}
+
 bassWordsChorus = \lyricmode {
   whoa --
   for
@@ -119,4 +139,5 @@ bassNotes = {
   \bassChorus
   \bassVerseThree
   \bassBridgeIntro
+  \bassBridge
 }
