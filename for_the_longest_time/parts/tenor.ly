@@ -95,6 +95,28 @@ tenorVerseThree = \relative c' {
   r1
 }
 
+tenorVerseFour = \relative c' {
+  ees,2 g2
+  bes2 d2
+  d4 ees4 c4 bes4
+  r4 bes4 bes'4 g8 f8
+
+  g1
+  bes,2 d2
+  d4 ees4 c4 bes4
+  bes2 r2
+
+  r4 g4 b4 d4
+  f2 ees2
+  bes4 bes4 d4 f4
+  aes4 g8 ees4. des4
+
+  r4 aes4 c4 ees4
+  g4 aes4 f4 ees4
+  f2. ees4
+  ees8 ees8 ees8 ees8 ees8 ees8 ees8 ees8
+}
+
 tenorBridgeIntro = \relative c' {
   r8 ees8 bes8 f'8 g8 r8 bes,8 d8
   ees8 ees8 bes8 f'8 g8 r8 bes,8 es8
@@ -106,7 +128,7 @@ tenorBridgeIntro = \relative c' {
   ees8 ees8 bes8 f'8 g8 r8 bes,8 es8
 
   r8 ees8 bes8 f'8 g8 r8 bes,8 d8
-  ees8 ees8 bes8 f'8 g8 r8 bes,8 es8
+  ees8 ees8 bes8 f'8 g8 r8 r4
 }
 
 tenorBridge = \relative c' {
@@ -202,7 +224,7 @@ tenorWords = \lyricmode {
   doo be doo be doo doo be
 
   be doo be doo doo be
-  doo be doo be doo doo be
+  doo be doo be doo
 
   May -- be this won't last ve -- ry long
   But you feel so right
@@ -220,7 +242,7 @@ tenorWords = \lyricmode {
   I ha -- ven't
   been there for the
   lon -- gest
-  time
+  ti ti ti ti ti ti ti ti
 
 }
 
@@ -234,5 +256,5 @@ tenorNotes = {
   \tenorVerseThree
   \tenorBridgeIntro
   \tenorBridge
-  \tenorVerseTwo
+  \tenorVerseFour
 }

@@ -60,6 +60,28 @@ baritoneVerseThree = \relative c {
   r1
 }
 
+baritoneVerseFour = \relative c {
+  ees2 g2
+  bes2 d2
+  d4 ees4 c4 bes4
+  bes1
+
+  ees,2 g2
+  bes2 d2
+  d4 ees4 c4 bes4
+  bes2 d4( c4
+
+  b1)
+  c2 c4( ees4
+  d1)
+  ees2 c4( bes4
+
+  aes2.) g4(
+  f1)
+  bes2. bes4
+  bes8 bes8 bes8 bes8 bes8 bes8 bes8 bes8
+}
+
 baritoneBridgeIntro = \relative c {
   bes'2 ees,8 ees8 ees8 ees8
   r4 bes'4 r8 ees,4 bes8
@@ -191,7 +213,7 @@ baritoneWords = \lyricmode {
   ah ah --
   ah --
   lon -- gest
-  time
+  ti ti ti ti ti ti ti ti
 }
 
 % export
@@ -204,5 +226,5 @@ baritoneNotes = {
   \baritoneVerseThree
   \baritoneBridgeIntro
   \baritoneBridge
-  \baritoneVerse
+  \baritoneVerseFour
 }

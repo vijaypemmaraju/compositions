@@ -59,6 +59,27 @@ bassVerseThree = \relative c {
   r1
 }
 
+bassVerseFour = \relative c {
+  ees2( d2
+  c2 bes2
+  aes1
+  ees'1)
+
+  ees2( d2
+  c2 bes2
+  f1
+  bes2) bes4( aes4
+
+  g1
+  c1
+  bes1)
+  es2( g,2
+  aes1
+  f1)
+  bes1
+  ees8 ees8 ees8 ees8 ees8 ees8 ees8 ees8
+}
+
 bassBridgeIntro = \relative c, {
   ees2 r2
   r8 ees8 r8 ees8 r2
@@ -107,6 +128,24 @@ bassWordsVerse = \lyricmode {
   time
 }
 
+bassWordsVerse = \lyricmode {
+  ooh --
+  ooh --
+  ah --
+  ah --
+  long
+  time
+}
+
+bassWordsVerseFour = \lyricmode {
+  ooh --
+  ooh --
+  ah --
+  ah --
+  long
+  ti ti ti ti ti ti ti ti
+}
+
 bassWordsVerseThree = \lyricmode {
   ooh --
   ooh --
@@ -146,7 +185,7 @@ bassWords = \lyricmode {
   \bassWordsChorus
   \bassWordsVerseThree
   \bassWordsBridge
-  \bassWordsVerse
+  \bassWordsVerseFour
 }
 
 % export
@@ -159,5 +198,5 @@ bassNotes = {
   \bassVerseThree
   \bassBridgeIntro
   \bassBridge
-  \bassVerse
+  \bassVerseFour
 }

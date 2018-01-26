@@ -61,6 +61,28 @@ altoVerseThree = {
   r1
 }
 
+altoVerseFour = {
+  ees2( d2
+  c2 bes2
+  aes1
+  bes1)
+
+  ees2( d2
+  c2 <bes g'>2
+  <a f'>1
+  d2) d4( c4
+
+  b1)
+  c1
+  d1
+  g1
+
+  c,2.( bes4
+  aes1)
+  d2. ees4
+  ees8 ees8 ees8 ees8 ees8 ees8 ees8 ees8
+}
+
 altoBridgeIntro = {
   ees2 bes8 bes8 bes8 bes8
   r4 ees4 r8 bes4 ees8
@@ -106,6 +128,18 @@ altoWordsVerse = \lyricmode {
   ah --
   lon -- gest
   time
+}
+
+altoWordsVerseFour = \lyricmode {
+  ooh --
+  ooh --
+  ah --
+  ah
+  ah
+  ah
+  ah --
+  lon -- gest
+  ti ti ti ti ti ti ti ti
 }
 
 altoWordsVerseThree = \lyricmode {
@@ -166,7 +200,7 @@ altoWords = \lyricmode {
   \altoWordsChorus
   \altoWordsVerseThree
   \altoWordsBridge
-  \altoWordsVerse
+  \altoWordsVerseFour
 }
 
 % export
@@ -178,5 +212,5 @@ altoNotes = \relative c'' {
   \altoVerseThree
   \altoBridgeIntro
   \altoBridge
-  \altoVerse
+  \altoVerseFour
 }

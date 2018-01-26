@@ -61,6 +61,28 @@ sopranoVerseThree = \relative c'' {
   r1
 }
 
+sopranoVerseFour = \relative c'' {
+  ees,2 g2
+  bes2 d2
+  d4 ees4 c4 bes4
+  bes1
+
+  ees,2 g2
+  bes2 d2
+  d4 ees4 c4 bes4
+  bes2 bes4( aes4
+
+  g1)
+  g2 g4( c4
+  bes1)
+  bes2. bes4(
+
+  aes2.) g4(
+  f1)
+  bes2. g4
+  g8 g8 g8 g8 g8 g8 g8 g8
+}
+
 sopranoBridgeIntro = \relative c'' {
   r2 ees8^"lip trills" ees8 ees16 ees16 g8
   r2 d16 ees16 d8 ees,8 f8
@@ -154,32 +176,32 @@ sopranoWords = \lyricmode {
 
   % bridge
   bpr bpr bpr ka bpr
-  bpr - - - -
+  bpr ka bpr bpr bpr
   %
-  bpr - - - -
+  bpr ka bpr bpr bpr
 
   bpr bpr bpr ka bpr
-  bpr - - - -
+  bpr ka bpr bpr bpr
   %
-  bpr - - - -
+  bpr ka bpr bpr bpr
 
   bpr bpr bpr ka bpr
-  bpr - - - -
+  bpr ka bpr bpr bpr
   %
-  bpr - - - -
+  bpr ka bpr bpr bpr
 
   bpr bpr bpr ka bpr
-  bpr - - - -
+  bpr ka bpr bpr bpr
   %
-  bpr - - - -
+  bpr ka bpr bpr bpr
 
   bpr bpr bpr ka bpr
-  bpr - - - -
+  bpr ka bpr bpr bpr
   %
-  bpr - - - -
+  bpr ka bpr bpr bpr
 
   bpr bpr bpr ka bpr
-  bpr - - - -
+  bpr ka bpr bpr bpr
   %
 
   Who knows how much fur -- ther we'll go on
@@ -189,7 +211,7 @@ sopranoWords = \lyricmode {
   ah ah --
   ah --
   lon -- gest
-  time
+  ti ti ti ti ti ti ti ti
 
 }
 
@@ -202,5 +224,5 @@ sopranoNotes = {
   \sopranoVerseThree
   \sopranoBridgeIntro
   \sopranoBridge
-  \sopranoVerse
+  \sopranoVerseFour
 }
