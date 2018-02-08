@@ -130,7 +130,7 @@ tenorVerseFive = \relative c' {
 
   r4 g4 b4 d4
   f2 ees2
-  bes4 bes4 d4 f4
+  r4 bes4 d4 f4
   aes4 g8 ees4. des4
 
   c4 aes4 c4 ees4
