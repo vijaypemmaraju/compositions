@@ -111,6 +111,12 @@ bassBridge = \relative c, {
   bes1
 }
 
+bassBridgeTwo = \relative c, {
+  ees8^"throat bass solo" ees8 ees8 ees8 r4
+  ees8 ees8 ees8 ees8 r4 r8 ees4.
+  ees8 ees16 ees16 ees8 ees8 ees16 ees16 ees8 ees8 ees16 ees16 ees8 ees8 ees16 ees16 ees8 ees8 ees8 ees16 ees16 ees8
+}
+
 bassWordsChorus = \lyricmode {
   whoa --
   for
@@ -178,6 +184,16 @@ bassWordsBridge = \lyricmode {
   oh
 }
 
+bassWordsBridgeTwo = \lyricmode {
+  ooh ah ooh ah
+  ooh ah ooh ah mwaaa
+  wa wa da wa
+  wa wa da wa
+  wa wa da wa
+  wa wa da wa
+  wa wa wa da wa
+}
+
 bassWords = \lyricmode {
   \bassWordsChorus
   \bassWordsVerse
@@ -186,6 +202,7 @@ bassWords = \lyricmode {
   \bassWordsVerseThree
   \bassWordsBridge
   \bassWordsVerseFour
+  \bassWordsBridgeTwo
 }
 
 % export
@@ -199,4 +216,5 @@ bassNotes = {
   \bassBridgeIntro
   \bassBridge
   \bassVerseFour
+  \bassBridgeTwo
 }
