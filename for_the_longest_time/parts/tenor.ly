@@ -117,6 +117,28 @@ tenorVerseFour = \relative c' {
   ees8 ees8 ees8 ees8 ees8 ees8 ees8 ees8
 }
 
+tenorVerseFive = \relative c' {
+  ees,2 g2
+  bes2 d2
+  d4 ees4 c4 bes4
+  r4 bes4 bes'4 g8 f8
+
+  g1
+  bes,2 d2
+  d4 ees4 c4 bes4
+  bes2 r2
+
+  r4 g4 b4 d4
+  f2 ees2
+  bes4 bes4 d4 f4
+  aes4 g8 ees4. des4
+
+  c4 aes4 c4 ees4
+  g4 aes4 f4 ees4
+  f2. ees4
+  ees1
+}
+
 tenorBridgeIntro = \relative c' {
   r4. f8 g2
   r4. f8 g2
@@ -344,7 +366,7 @@ tenorNotes = {
   \tenorBridge
   \tenorVerseFour
   \tenorBridgeTwo
-  \tenorVerseTwo
+  \tenorVerseFive
   \tenorChorus
   \tenorChorus
   bes1

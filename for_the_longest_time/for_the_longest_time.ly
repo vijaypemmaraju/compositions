@@ -23,7 +23,10 @@ global = {
 }
 
 \score {
-  \new ChoirStaff <<
+  \new ChoirStaff \with {
+    fontSize = #-2
+    \override StaffSymbol.staff-space = #(magstep -2)
+  } <<
     \new Staff <<
       \new Voice = "soprano" <<
         \global
