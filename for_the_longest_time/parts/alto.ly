@@ -296,6 +296,7 @@ altoWords = \lyricmode {
   \altoWordsVerse
   \altoWordsChorus
   \altoWordsChorus
+  time
 }
 
 % export
@@ -312,4 +313,5 @@ altoNotes = \relative c'' {
   \altoVerse
   \altoChorus
   \altoChorus
+  g1
 }

@@ -270,6 +270,7 @@ bassWords = \lyricmode {
   \bassWordsVerse
   \bassWordsChorus
   \bassWordsChorus
+  time
 }
 
 % export
@@ -287,4 +288,5 @@ bassNotes = {
   \bassVerse
   \bassChorus
   \bassChorus
+  ees1
 }

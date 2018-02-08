@@ -329,6 +329,7 @@ tenorWords = \lyricmode {
   lon -- gest time
   \tenorWordsChorus
   \tenorWordsChorus
+  time
 }
 
 % export
@@ -346,4 +347,5 @@ tenorNotes = {
   \tenorVerseTwo
   \tenorChorus
   \tenorChorus
+  bes1
 }

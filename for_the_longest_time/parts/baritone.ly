@@ -317,6 +317,7 @@ baritoneWords = \lyricmode {
   time
   \baritoneWordsChorus
   \baritoneWordsChorus
+  time
 }
 
 % export
@@ -334,4 +335,5 @@ baritoneNotes = {
   \baritoneVerse
   \baritoneChorus
   \baritoneChorus
+  bes1
 }

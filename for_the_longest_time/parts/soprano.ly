@@ -287,6 +287,7 @@ sopranoWords = \lyricmode {
   time
   \sopranoWordsChorus
   \sopranoWordsChorus
+  time
 }
 
 % export
@@ -303,4 +304,5 @@ sopranoNotes = {
   \sopranoVerse
   \sopranoChorus
   \sopranoChorus
+  bes'1
 }
