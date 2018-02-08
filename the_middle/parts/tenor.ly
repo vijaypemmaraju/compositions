@@ -1,0 +1,6 @@
+% export
+tenorWords = \lyricmode {
+
+}
+tenorNotes = {
+}
