@@ -253,4 +253,7 @@ bassNotes = {
   \bassBridge
   \bassVerseFour
   \bassBridgeTwo
+  \bassVerse
+  \bassChorus
+  \bassChorus
 }

@@ -289,4 +289,7 @@ baritoneNotes = {
   \baritoneBridge
   \baritoneVerseFour
   \baritoneBridgeTwo
+  \baritoneVerse
+  \baritoneChorus
+  \baritoneChorus
 }

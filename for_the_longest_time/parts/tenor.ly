@@ -305,4 +305,7 @@ tenorNotes = {
   \tenorBridge
   \tenorVerseFour
   \tenorBridgeTwo
+  \tenorVerseTwo
+  \tenorChorus
+  \tenorChorus
 }

@@ -275,4 +275,7 @@ altoNotes = \relative c'' {
   \altoBridge
   \altoVerseFour
   \altoBridgeTwo
+  \altoVerse
+  \altoChorus
+  \altoChorus
 }

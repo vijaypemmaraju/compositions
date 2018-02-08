@@ -263,4 +263,7 @@ sopranoNotes = {
   \sopranoBridge
   \sopranoVerseFour
   \sopranoBridgeTwo
+  \sopranoVerse
+  \sopranoChorus
+  \sopranoChorus
 }
