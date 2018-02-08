@@ -112,9 +112,51 @@ bassBridge = \relative c, {
 }
 
 bassBridgeTwo = \relative c, {
-  ees8^"throat bass solo" ees8 ees8 ees8 r4
-  ees8 ees8 ees8 ees8 r4 r8 ees4.
-  ees8 ees16 ees16 ees8 ees8 ees16 ees16 ees8 ees8 ees16 ees16 ees8 ees8 ees16 ees16 ees8 ees8 ees8 ees16 ees16 ees8
+  r1
+  r2 r8 ees4.
+  r1
+  r2 \tuplet 3/4 { ees8 ees ees }
+  r1
+  r2 r8 ees4.
+  r1
+  r2 \tuplet 3/4 { ees8 ees ees }
+
+  bes'4 r4
+  bes4 r4
+  c4 r4
+  c4 r4
+  d4 r4
+  d4 r4
+  ees4 r4
+  ees4 r4
+
+  bes4 r4
+  bes4 r4
+  c4 r4
+  c4 r4
+  f,4 r4
+  f4 r4
+  bes4 r4
+  r8 bes8. bes8.
+
+  bes4 r4
+  bes4 r4
+  c4 r4
+  c4 r4
+  d4 r4
+  d4 r4
+  ees4 r4
+  ees4 r4
+
+  bes4 r4
+  bes4 r4
+  c4 r4
+  c4 r4
+  f,4 r4
+  f4 r4
+  bes4 r4
+  bes2
+  bes1
 }
 
 bassWordsChorus = \lyricmode {
@@ -185,13 +227,7 @@ bassWordsBridge = \lyricmode {
 }
 
 bassWordsBridgeTwo = \lyricmode {
-  ooh ah ooh ah
-  ooh ah ooh ah mwaaa
-  wa wa da wa
-  wa wa da wa
-  wa wa da wa
-  wa wa da wa
-  wa wa wa da wa
+  mwa
 }
 
 bassWords = \lyricmode {

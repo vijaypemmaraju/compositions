@@ -110,6 +110,67 @@ baritoneBridge = \relative c {
   \tuplet 3/4 { f f f r f f } f1
 }
 
+baritoneBridgeTwo = \relative c {
+  r1
+  r2 r8 bes4.
+  r1
+  r2 \tuplet 3/4 { bes8 bes bes }
+  r1
+  r2 r8 bes4.
+  r1
+  r2 \tuplet 3/4 { bes8 bes bes }
+
+  r8 bes8 bes8 bes8
+  r8 bes8 bes8 bes8
+
+  r8 c8 c8 c8
+  r8 c8 c8 c8
+
+  r8 d8 d8 d8
+  r8 d8 d8 d8
+
+  r8 ees8 ees8 ees8
+  r8 ees8 ees8 ees8
+
+  r8 bes8 bes8 bes8
+  r8 bes8 bes8 bes8
+
+  r8 ees8 ees8 ees8
+  r8 ees8 ees8 ees8
+
+  r8 c8 c8 c8
+  r8 c8 c8 c8
+
+  r8 f8 f8 f8
+  r8 f8. f8.
+
+  r8 bes,8 bes8 bes8
+  r8 bes8 bes8 bes8
+
+  r8 c8 c8 c8
+  r8 c8 c8 c8
+
+  r8 d8 d8 d8
+  r8 d8 d8 d8
+
+  r8 ees8 ees8 ees8
+  r8 ees8 ees8 ees8
+
+  r8 bes8 bes8 bes8
+  r8 bes8 bes8 bes8
+
+  r8 ees8 ees8 ees8
+  r8 ees8 ees8 ees8
+
+  r8 c8 c8 c8
+  r8 c8 c8 c8
+
+  r8 f8 f8 f8
+  r8 f8 f8 f8
+
+  f1
+}
+
 
 baritoneWordsChorus = \lyricmode {
   whoa --
@@ -227,4 +288,5 @@ baritoneNotes = {
   \baritoneBridgeIntro
   \baritoneBridge
   \baritoneVerseFour
+  \baritoneBridgeTwo
 }

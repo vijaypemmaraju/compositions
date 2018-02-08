@@ -83,36 +83,85 @@ sopranoVerseFour = \relative c'' {
   g8 g8 g8 g8 g8 g8 g8 g8
 }
 
-sopranoBridgeIntro = \relative c'' {
-  r2 ees8^"lip trills" ees8 ees16 ees16 g8
-  r2 d16 ees16 d8 ees,8 f8
-  r1
-  r2 bes16 c16 bes8 ees,8 f8
-  r2 ees'8 ees8 ees16 ees16 g8
-  r2 d16 ees16 d8 ees,8 f8
-  r1
-  r2 bes16 c16 bes8 ees,8 f8
+sopranoBridgeIntro = \relative c' {
+  r8 ees8 bes2 bes8 d8
+  ees8 ees8 bes2 bes8 ees8
+
+  r8 ees8 bes2 bes8 d8
+  ees8 ees8 bes2 bes8 ees8
+
+  r8 ees8 bes2 bes8 d8
+  ees8 ees8 bes2 bes8 ees8
+
+  r8 ees8 bes2 bes8 d8
+  ees8 ees8 bes2 r4
 }
 
 sopranoBridge = \relative c'' {
-  r2 d8 d8 d16 d16 f8
-  r2 d16 ees16 d8 ees,8 f8
-  r1
-  r2 bes16 c16 bes8 ees,8 f8
-  r2 d'8 d8 d16 d16 fis8
-  r2 d16 ees16 d8 ees,8 f8
-  r1
-  r2 bes16 c16 bes8 ees,8 f8
-
-  r2 d'8 d8 d16 d16 f8
-  r2 d16 ees16 d8 ees,8 f8
-  r1
-  r2 bes16 c16 bes8 ees,8 f8
-  r2 c'8 c8 c16 c16 f8
-  r2 c16 f16 c8 f,8 g8
-  r1
-  r1
+  d2 d2
+  d2 d2
+  d2 c4 bes4
+  c2. ees,4
+  d'2 c4 bes4
+  c2. ees,4
+  c'2 bes4 a4
+  g1
+  d'2 d2 d2 d2
+  d2 c4 bes4
+  c2. ees,4
+  d'2 c4 bes4
+  c2. ees,8 ees8
+  c'2 bes4 aes4
+  g2 f2
 }
+
+sopranoBridgeTwo = \relative c'' {
+  r1
+  r2 r8 bes4.
+  r1
+  r2 \tuplet 3/4 { bes8 bes bes }
+  r1
+  r2 r8 bes4.
+  r1
+  r2 \tuplet 3/4 { bes8 bes bes }
+
+  d4 d4
+  d4 d4
+  d4 c8 bes8
+  c4 ees,8 d'8~
+  d8 d8 c8 bes8
+  c4 ees,8 c'8~
+  c8 c8 bes8 a8
+  g2
+  d'4 d4 d4 d4
+  d4 c8 bes8
+  c4 ees,8 d'8~
+  d8 d8 c8 bes8
+  c4 ees,8 c'8~
+  c4 bes8 aes8
+  r8 g8. bes8.
+
+  d4 d4
+  d4 d4
+  d4 c8 bes8
+  c4 ees,8 d'8~
+  d8 d8 c8 bes8
+  c4 ees,8 c'8~
+  c8 c8 bes8 a8
+  g2
+  d'4 d4 d4 d4
+  d4 c8 bes8
+  c4 ees,8 d'8~
+  d8 d8 c8 bes8
+  c4 ees,8 c'8~
+  c4 bes8 aes8
+  g2
+  f1
+  \override BreathingSign.text = \markup {
+    \musicglyph #"scripts.caesura.straight"
+  }
+}
+
 
 sopranoWordsChorus = \lyricmode {
   whoa --
@@ -175,34 +224,22 @@ sopranoWords = \lyricmode {
   lon lon lon lon lon lon lon lon
 
   % bridge
-  bpr bpr bpr ka bpr
-  bpr ka bpr bpr bpr
-  %
-  bpr ka bpr bpr bpr
+  be doo doo be
+  doo be doo doo be
+  be doo doo be
+  doo be doo doo be
 
-  bpr bpr bpr ka bpr
-  bpr ka bpr bpr bpr
-  %
-  bpr ka bpr bpr bpr
+  be doo doo be
+  doo be doo doo be
+  be doo doo be
+  doo be doo
 
-  bpr bpr bpr ka bpr
-  bpr ka bpr bpr bpr
-  %
-  bpr ka bpr bpr bpr
-
-  bpr bpr bpr ka bpr
-  bpr ka bpr bpr bpr
-  %
-  bpr ka bpr bpr bpr
-
-  bpr bpr bpr ka bpr
-  bpr ka bpr bpr bpr
-  %
-  bpr ka bpr bpr bpr
-
-  bpr bpr bpr ka bpr
-  bpr ka bpr bpr bpr
-  %
+  May -- be this won't last ve -- ry long
+  But you feel so right
+  And I could be wrong
+  May -- be I've been ho -- ping too hard
+  But I've gone this far
+  And it's more than I hoped for
 
   Who knows how much fur -- ther we'll go on
   May -- be I'll be so -- rry when you're gone
@@ -225,4 +262,5 @@ sopranoNotes = {
   \sopranoBridgeIntro
   \sopranoBridge
   \sopranoVerseFour
+  \sopranoBridgeTwo
 }

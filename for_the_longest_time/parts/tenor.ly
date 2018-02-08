@@ -118,17 +118,17 @@ tenorVerseFour = \relative c' {
 }
 
 tenorBridgeIntro = \relative c' {
-  r8 ees8 bes8 f'8 g8 r8 bes,8 d8
-  ees8 ees8 bes8 f'8 g8 r8 bes,8 es8
+  r4. f8 g2
+  r4. f8 g2
 
-  r8 ees8 bes8 f'8 g8 r8 bes,8 d8
-  ees8 ees8 bes8 f'8 g8 r8 bes,8 es8
+  r4. f8 g2
+  r4. f8 g2
 
-  r8 ees8 bes8 f'8 g8 r8 bes,8 d8
-  ees8 ees8 bes8 f'8 g8 r8 bes,8 es8
+  r4. f8 g2
+  r4. f8 g2
 
-  r8 ees8 bes8 f'8 g8 r8 bes,8 d8
-  ees8 ees8 bes8 f'8 g8 r8 r4
+  r4. f8 g2
+  r4. f8 g2
 }
 
 tenorBridge = \relative c' {
@@ -147,6 +147,53 @@ tenorBridge = \relative c' {
   c2. ees,8 ees8
   c'2 bes4 aes4
   g2 f2
+}
+
+tenorBridgeTwo = \relative c' {
+  r1
+  r2 r8 bes4.
+  r1
+  r2 \tuplet 3/4 { bes8 bes bes }
+  r1
+  r2 r8 bes4.
+  r1
+  r2 \tuplet 3/4 { bes8 bes bes }
+
+  d4 d4
+  d4 d4
+  d4 c8 bes8
+  c4 ees,8 d'8~
+  d8 d8 c8 bes8
+  c4 ees,8 c'8~
+  c8 c8 bes8 a8
+  g2
+  d'4 d4 d4 d4
+  d4 c8 bes8
+  c4 ees,8 d'8~
+  d8 d8 c8 bes8
+  c4 ees,8 c'8~
+  c4 bes8 aes8
+  r8 g8. bes8.
+
+  d4 d4
+  d4 d4
+  d4 c8 bes8
+  c4 ees,8 d'8~
+  d8 d8 c8 bes8
+  c4 ees,8 c'8~
+  c8 c8 bes8 a8
+  g2
+  d'4 d4 d4 d4
+  d4 c8 bes8
+  c4 ees,8 d'8~
+  d8 d8 c8 bes8
+  c4 ees,8 c'8~
+  c4 bes8 aes8
+  g2
+  f1
+  \override BreathingSign.text = \markup {
+    \musicglyph #"scripts.caesura.straight"
+  }
 }
 
 tenorWordsChorus = \lyricmode {
@@ -214,17 +261,17 @@ tenorWords = \lyricmode {
   lon lon lon lon
   lon lon lon lon lon lon lon lon
 
-  be doo be doo doo be
-  doo be doo be doo doo be
+  be doo
+  be doo
 
-  be doo be doo doo be
-  doo be doo be doo doo be
+  be doo
+  be doo
 
-  be doo be doo doo be
-  doo be doo be doo doo be
+  be doo
+  be doo
 
-  be doo be doo doo be
-  doo be doo be doo
+  be doo
+  be doo
 
   May -- be this won't last ve -- ry long
   But you feel so right
@@ -257,4 +304,5 @@ tenorNotes = {
   \tenorBridgeIntro
   \tenorBridge
   \tenorVerseFour
+  \tenorBridgeTwo
 }

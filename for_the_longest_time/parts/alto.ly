@@ -110,6 +110,67 @@ altoBridge = {
   \tuplet 3/4 { f' f f r f f } f1
 }
 
+altoBridgeTwo = {
+  r1
+  r2 r8 g4.
+  r1
+  r2 \tuplet 3/4 { g8 g g }
+  r1
+  r2 r8 g4.
+  r1
+  r2 \tuplet 3/4 { g8 g g }
+
+  r8 f8 f8 f8
+  r8 f8 f8 f8
+
+  r8 g8 g8 g8
+  r8 g8 g8 g8
+
+  r8 fis8 fis8 fis8
+  r8 fis8 fis8 fis8
+
+  r8 g8 g8 g8
+  r8 g8 g8 g8
+
+  r8 f8 f8 f8
+  r8 f8 f8 f8
+
+  r8 g8 g8 g8
+  r8 g8 g8 g8
+
+  r8 f8 f8 f8
+  r8 f8 f8 f8
+
+  r8 f8 f8 f8
+  r8 f8. f8.
+
+  r8 f8 f8 f8
+  r8 f8 f8 f8
+
+  r8 g8 g8 g8
+  r8 g8 g8 g8
+
+  r8 fis8 fis8 fis8
+  r8 fis8 fis8 fis8
+
+  r8 g8 g8 g8
+  r8 g8 g8 g8
+
+  r8 f8 f8 f8
+  r8 f8 f8 f8
+
+  r8 g8 g8 g8
+  r8 g8 g8 g8
+
+  r8 f8 f8 f8
+  r8 f8 f8 f8
+
+  r8 f8 f8 f8
+  r8 f8 f8 f8
+
+  f1
+}
+
 altoWordsChorus = \lyricmode {
   whoa --
   for
@@ -213,4 +274,5 @@ altoNotes = \relative c'' {
   \altoBridgeIntro
   \altoBridge
   \altoVerseFour
+  \altoBridgeTwo
 }
