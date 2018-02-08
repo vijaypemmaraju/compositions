@@ -275,6 +275,48 @@ baritoneWords = \lyricmode {
   ah --
   lon -- gest
   ti ti ti ti ti ti ti ti
+
+  mwa
+  mwa mwa mwa
+
+  mwa
+  mwa mwa mwa
+
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  hoped for
+
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+
+  for
+
+  I don't care what
+  con -- se -- quence it
+  brings
+
+  I have been a fool for less -- er
+  things ah --
+  ah ah --
+  ah ah --
+  ah --
+  lon -- gest
+  time
+  \baritoneWordsChorus
+  \baritoneWordsChorus
 }
 
 % export

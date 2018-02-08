@@ -254,6 +254,36 @@ altoWordsBridge = \lyricmode {
   oh
 }
 
+altoWordsBridgeTwo = \lyricmode {
+   mwa
+  mwa mwa mwa
+
+  mwa
+  mwa mwa mwa
+
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  hoped for
+
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+  mwa mwa mwa  mwa mwa mwa
+
+  for
+}
+
 altoWords = \lyricmode {
   \altoWordsChorus
   \altoWordsVerse
@@ -262,6 +292,10 @@ altoWords = \lyricmode {
   \altoWordsVerseThree
   \altoWordsBridge
   \altoWordsVerseFour
+  \altoWordsBridgeTwo
+  \altoWordsVerse
+  \altoWordsChorus
+  \altoWordsChorus
 }
 
 % export

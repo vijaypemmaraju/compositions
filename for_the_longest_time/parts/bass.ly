@@ -228,6 +228,34 @@ bassWordsBridge = \lyricmode {
 
 bassWordsBridgeTwo = \lyricmode {
   mwa
+  mwa mwa mwa
+  mwa
+  mwa mwa mwa
+  ba ba
+  ba ba
+
+  ba ba
+  ba ba
+
+  ba ba
+  ba ba
+
+  ba ba
+  ba hoped for
+
+  ba ba
+  ba ba
+
+  ba ba
+  ba ba
+
+  ba ba
+  ba ba
+
+  ba ba
+  ba ba
+
+  for
 }
 
 bassWords = \lyricmode {
@@ -239,6 +267,9 @@ bassWords = \lyricmode {
   \bassWordsBridge
   \bassWordsVerseFour
   \bassWordsBridgeTwo
+  \bassWordsVerse
+  \bassWordsChorus
+  \bassWordsChorus
 }
 
 % export

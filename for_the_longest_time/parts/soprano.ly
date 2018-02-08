@@ -150,8 +150,8 @@ sopranoBridgeTwo = \relative c'' {
   c8 c8 bes8 a8
   g2
   d'4 d4 d4 d4
-  d4 c8 bes8
-  c4 ees,8 d'8~
+  f4 d8 c8
+  d4 ees,8 d'8~
   d8 d8 c8 bes8
   c4 ees,8 c'8~
   c4 bes8 aes8
@@ -250,6 +250,43 @@ sopranoWords = \lyricmode {
   lon -- gest
   ti ti ti ti ti ti ti ti
 
+  mwa
+  mwa mwa mwa
+
+  mwa
+  mwa mwa mwa
+
+  I had se -- cond
+  thoughts at the start I
+  sa -- id to my -- self hold
+  o -- n -- to your heart
+
+  Now I know the wo -- man you are you're
+  won -- der -- ful so far it's
+  more than I hoped for
+
+  I had se -- cond
+  thoughts at the start I
+  sa -- id to my -- self hold
+  o -- n -- to your heart
+
+  Now I know the wo -- man you are you're
+  won -- der -- ful so far it's
+  more than I hoped for
+
+  I don't care what
+  con -- se -- quence it
+  brings
+
+  I have been a fool for less -- er
+  things ah --
+  ah ah --
+  ah ah --
+  ah --
+  lon -- gest
+  time
+  \sopranoWordsChorus
+  \sopranoWordsChorus
 }
 
 % export
